@@ -157,6 +157,7 @@ Add the following:
 [DEFAULT]
 bantime = 1h
 banaction = ufw
+backend=systemd
 
 [sshd]
 enabled = true
